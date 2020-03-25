@@ -127,7 +127,7 @@ a:hover {
 a.move-top {
     width: 34px;
     height: 34px;
-    background: url(../images/move-top.png) no-repeat;
+    background: url(https://raw.githubusercontent.com/darkin1994/web207-ass/master/src/assets/images/move-top.png) no-repeat;
     display: inline-block;
     position: fixed;
     bottom: 4%;
@@ -285,7 +285,7 @@ nav ul ul li a {
     font-size: 14px;
 }
 
-/* Second, Third and more Tiers	
+/* Second, Third and more Tiers
  * We move the 2nd and 3rd etc tier dropdowns to the left
  * by the amount of the width of the first tier.
 */
@@ -436,7 +436,7 @@ a.reqe-button {
         font-size: 17px;
     }
 
-    /* 
+    /*
     nav ul li ul li .toggle,
     nav ul ul a {
         background-color: #212121;
@@ -616,22 +616,22 @@ a.reqe-button {
 }
 
 .csslider>ul>li:first-child {
-    background: url(../images/1.jpg) no-repeat center;
+    background: url(https://raw.githubusercontent.com/darkin1994/web207-ass/master/src/assets/images/1.jpg) no-repeat center;
     background-size: cover;
 }
 
 .csslider>ul>li:nth-child(2) {
-    background: url(../images/2.jpg) no-repeat center;
+    background: url(https://raw.githubusercontent.com/darkin1994/web207-ass/master/src/assets/images/2.jpg) no-repeat center;
     background-size: cover;
 }
 
 .csslider>ul>li:nth-child(3) {
-    background: url(../images/3.jpg) no-repeat center;
+    background: url(https://raw.githubusercontent.com/darkin1994/web207-ass/master/src/assets/images/3.jpg) no-repeat center;
     background-size: cover;
 }
 
 .csslider>ul>li:last-child {
-    background: url(../images/4.jpg) no-repeat center;
+    background: url(https://raw.githubusercontent.com/darkin1994/web207-ass/master/src/assets/images/4.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -693,7 +693,7 @@ h3.w3ls_pvt-title {
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
-	
+
 }
 
 .button-style-2:hover {
@@ -706,7 +706,7 @@ h3.w3ls_pvt-title {
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
-	
+
 }
 
 /* banner responsive */
@@ -868,7 +868,7 @@ p.wstyles {
 
 /* stats */
 .stats {
-    background: url(../images/bg.jpg) no-repeat center;
+    background: url(https://raw.githubusercontent.com/darkin1994/web207-ass/master/src/assets../images/bg.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -987,7 +987,7 @@ a.button-style-3 {
 /*-- /testimonials --*/
 
 .testimonials {
-   background: url(../images/bg.jpg) no-repeat center;
+   background: url(https://raw.githubusercontent.com/darkin1994/web207-ass/master/src/assets/images/bg.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -1055,8 +1055,8 @@ h2.footer-title {
 }
 
 .subscribe_form button:hover {
-    background: #ff9900;	
-	opacity:1;	
+    background: #ff9900;
+	opacity:1;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -1148,7 +1148,7 @@ a.w3_agile_google {
 
 /* inner pages */
 .banner_w3lspvt-2 {
-    background: url(../images/2.jpg) no-repeat center;
+    background: url(https://raw.githubusercontent.com/darkin1994/web207-ass/master/src/assets/images/2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

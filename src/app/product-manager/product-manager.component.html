@@ -1,0 +1,35 @@
+<div class="what py-5">
+  <div class="container py-xl-5 py-lg-3">
+    <h3 class="title-w3 mb-sm-4 mb-3 text-bl text-center font-weight-bold">Welcome to Our Website</h3>
+    <p class="mx-auto wstyles text-center mb-sm-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+    <img src="assets/images/about2.jpg" alt="" class="img-fluid">
+  </div>
+</div>
+
+
+<div class="container">
+<button class="btn-primary " (click)="add()">Insert Product</button>
+  <hr/>
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>PRICE</th>
+  </tr>
+  </thead>
+  <tbody *ngFor="let product of data">
+  <tr>
+    <td>{{product.id}}</td>
+    <td>{{product.name}}</td>
+    <td>{{product.price}}</td>
+    <td><button (click)="detail(product.id)" type="button" class="btn btn-primary">Detail</button></td>
+    <td><button (click)="getid(product.id)" type="button" class="btn btn-primary">Update</button></td>
+    <td><button (click)="deleteproduct(product.id)" type="button" class="btn btn-primary">Delete</button></td>
+  </tr>
+  </tbody>
+</table>
+</div>
